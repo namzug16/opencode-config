@@ -1,0 +1,7 @@
+node_modules
+package.json
+bun.lock
+plans
+package-lock.json
+*.tsbuildinfo
+.DS_Store
