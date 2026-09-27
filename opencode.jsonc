@@ -12,4 +12,38 @@
       "rm *": "deny"
     }
   },
+  "references": {
+    "passwordless-example": {
+      "path": "~/clones/passwordless-example.auth.pilcrowonpaper.com",
+      "description": "Use for the Go passwordless auth example with email-code sign-in, passkeys, SQLite, and server-rendered frontend"
+    },
+    "tweakcn": {
+      "path": "~/clones/tweakcn",
+      "description": "Use to inspect how tweakcn implements themes, design tokens, CSS variables, and customizations on top of shadcn/ui"
+    },
+    "absurd-starter": {
+      "path": "~/projects/absurd-starter",
+      "description": "Use for understanding how to use dart + htmx + basecoat + lucide icons"
+    },
+    "echo": {
+      "path": "~/clones/echo",
+      "description": "Use for understanding how to use echo, the backend framework in go, and how it works too"
+    }
+  },
+  "mcp": {
+    "chrome-devtools": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "chrome-devtools-mcp@latest",
+        "--headless",
+        "--isolated",
+        "--viewport=390x844",
+        "--no-usage-statistics"
+      ],
+      "enabled": true,
+      "timeout": 30000
+    }
+  },
 }
